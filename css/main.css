@@ -684,6 +684,11 @@ header {
   margin-bottom: 16px;
 }
 
+.social-list-team {
+  display: flex;
+  justify-content: center;
+}
+
 .clients-company {
   display: flex;
   gap: 30px;
