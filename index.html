@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <!-- Site header-->
@@ -24,23 +24,23 @@
         <nav class="main-nav">
           <a lang="en" href="./index.html" class="logo"><span>Web</span>Studio </a>
           <ul class="site-nav list">
-            <li class="item"><a href="" class="link current nav-link">Студія</a></li>
-            <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li class="item"><a href="" class="link">Контакти</a></li>
+            <li class="site-nav__item"><a href="" class="site-nav__link site-nav_current_color site-nav__nav-link">Студія</a></li>
+            <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфоліо</a></li>
+            <li class="site-nav__item"><a href="" class="site-nav__link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="con-nav list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="text-link contacs-tellcon">
-              <svg class="item-svg" width="16px" height="12px">
+          <li class="con-nav__item">
+            <a href="mailto:info@devstudio.com" class="con-nav__text-link">
+              <svg class="con-nav__item-svg" width="16px" height="12px">
                 <use href=".//images/icons.svg/sprite.svg#icon-mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="text-link contacs-tellcon">
-              <svg class="item-svg" width="10px" height="16px">
+          <li class="con-nav__item">
+            <a href="tel:+380961111111" class="con-nav__text-link">
+              <svg class="con-nav__item-svg" width="10px" height="16px">
                 <use href="./images/icons.svg/sprite.svg#icon-telefon"></use></svg
               >+38 096 111 11 11</a
             >
@@ -50,58 +50,56 @@
     </header>
     <main>
       <!--Hero-->
-      <section class="slogan overlay">
-        <div class="">
+      <section class="hero overlay">
           <div class="container">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button data-modal-open type="button" class="button">Замовити послугу</button>
+            <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+            <button data-modal-open type="button" class="hero__button">Замовити послугу</button>
           </div>
-        </div>
       </section>
       <!--Benefits-->
-      <section class="section secondary-section">
+      <section class="section benefits-section">
         <div class="container">
           <h2 class="visually-hidden">Переваги</h2>
           <ul class="list benefits-content">
-            <li class="item">
+            <li class="benefits-content__item">
               <div class="features-box">
                 <svg width="70px" height="70px">
                   <use href="./images/icons.svg/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="text">
+              <h3 class="benefits-content__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="benefits-content__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="item">
+            <li class="benefits-content__item">
               <div class="features-box">
                 <svg width="70px" height="70px">
                   <use href="./images/icons.svg/sprite.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="benefits-title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="text">
+              <h3 class="benefits-content__title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="benefits-content__text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="item">
+            <li class="benefits-content__item">
               <div class="features-box">
                 <svg width="70px" height="70px">
                   <use href="./images/icons.svg/sprite.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="benefits-title">ПЛАНУВАННЯ</h3>
-              <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+              <h3 class="benefits-content__title">ПЛАНУВАННЯ</h3>
+              <p class="benefits-content__text">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
-            <li class="item">
+            <li class="benefits-content__item">
               <div class="features-box">
                 <svg width="70px" height="70px">
                   <use href="./images/icons.svg/sprite.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="benefits-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="text">
+              <h3 class="benefits-content__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="benefits-content__text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -109,25 +107,25 @@
         </div>
       </section>
       <!--Work service-->
-      <section class="section secondary-section no-padding">
+      <section class="section service-section">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list service">
-            <li class="service-example">
-              <div class="service-name">
-                <h2 class="service-description">Десктопні додатки</h2>
+          <ul class="list service-section__list">
+            <li class="service-section__item">
+              <div class="service-section__name">
+                <h2 class="service-section__description">Десктопні додатки</h2>
               </div>
               <img src="./images/box1.jpg" alt="кодування" width="370" />
             </li>
-            <li class="service-example">
-              <div class="service-name">
-                <h2 class="service-description">Мобільні додатки</h2>
+            <li class="service-section__item">
+              <div class="service-section__name">
+                <h2 class="service-section__description">Мобільні додатки</h2>
               </div>
               <img src="./images/box2.jpg" alt="верстка" width="370" />
             </li>
-            <li class="service-example">
-              <div class="service-name">
-                <h2 class="service-description">Дизайнерські рішення</h2>
+            <li class="service-section__item">
+              <div class="service-section__name">
+                <h2 class="service-section__description">Дизайнерські рішення</h2>
               </div>
               <img src="./images/box3.jpg" alt="дизайн" width="370" />
             </li>
@@ -135,7 +133,7 @@
         </div>
       </section>
       <!--Team-->
-      <section class="section section-team">
+      <section class="section team-section">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="list crewman-card">
@@ -177,7 +175,7 @@
             </li>
             <li class="crewman">
               <img src="./images/img-team2.jpg" alt="портрет" width="270" />
-              <div class="our-dev">
+              <div class="our-product">
                 <h3 class="section-text">Ольга Рєпіна</h3>
                 <p class="profession">Frontend Developer</p>
                 <ul class="social-list-team list">
@@ -249,7 +247,7 @@
             </li>
             <li class="crewman">
               <img src="./images/img-team4.jpg" alt="портрет" width="270" />
-              <div class="our-des">
+              <div class="our-product">
                 <h3 class="section-text">Михайло Єрмаков</h3>
                 <p class="profession">UI Designer</p>
                 <ul class="social-list-team list">
@@ -339,7 +337,7 @@
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button data-modal-close class="button-close">
-            <svg class="backdrop-svg" width="18px" height="18px">
+            <svg class="button-close-svg" width="18px" height="18px">
               <use href="./images/icons.svg/sprite.svg#icon-close"></use>
             </svg>
           </button>
@@ -396,10 +394,10 @@
       </div>
     </main>
     <!--Footer-->
-    <footer class="dark-section">
+    <footer class="footer-section">
       <div class="container container-footer">
         <div class="footer-nav">
-          <a lang="en" href="./index.html" class="steplogo-pic steplogo"><span>Web</span>Studio </a>
+          <a lang="en" href="./index.html" class="steplogo"><span>Web</span>Studio </a>
           <address>
             <ul class="footer-con list">
               <li>

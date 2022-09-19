@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <!-- Site header-->
@@ -23,23 +23,23 @@
         <nav class="main-nav">
           <a lang="en" href="./index.html" class="logo"><span>Web</span>Studio </a>
           <ul class="site-nav list">
-            <li class="item"><a href="./index.html" class="link">Студія</a></li>
-            <li class="item"><a href="" class="link current nav-link">Портфоліо</a></li>
-            <li class="item"><a href="" class="link">Контакти</a></li>
+            <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студія</a></li>
+            <li class="site-nav__item"><a href="" class="site-nav__link site-nav_current_color site-nav__nav-link">Портфоліо</a></li>
+            <li class="site-nav__item"><a href="" class="site-nav__link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="con-nav list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="text-link contacs-tellcon">
-              <svg class="item-svg" width="16px" height="12px">
+          <li class="con-nav__item">
+            <a href="mailto:info@devstudio.com" class="con-nav__text-link">
+              <svg class="con-nav__item-svg" width="16px" height="12px">
                 <use href=".//images/icons.svg/sprite.svg#icon-mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="text-link contacs-tellcon">
-              <svg class="item-svg" width="10px" height="16px">
+          <li class="con-nav__item">
+            <a href="tel:+380961111111" class="con-nav__text-link">
+              <svg class="con-nav__item-svg" width="10px" height="16px">
                 <use href="./images/icons.svg/sprite.svg#icon-telefon"></use></svg
               >+38 096 111 11 11</a
             >
@@ -50,19 +50,19 @@
     <main>
       <!--Navigation-->
       <section class="section">
-        <div class="container accent">
+        <div class="container section-nav">
           <h1 class="visually-hidden">Портфоліо</h1>
-          <ul class="list section-nav">
-            <li class="item"><button type="button" class="push accent-text">Усі</button></li>
-            <li class="item"><button type="button" class="accent-text">Веб-сайти</button></li>
-            <li class="item"><button type="button" class="accent-text">Додаток</button></li>
-            <li class="item"><button type="button" class="accent-text">Дизайн</button></li>
-            <li class="item"><button type="button" class="accent-text">Маркетинг</button></li>
+          <ul class="list nav-list">
+            <li class="nav-list__item"><button type="button" class="push nav-list__text">Усі</button></li>
+            <li class="nav-list__item"><button type="button" class="nav-list__text">Веб-сайти</button></li>
+            <li class="nav-list__item"><button type="button" class="nav-list__text">Додаток</button></li>
+            <li class="nav-list__item"><button type="button" class="nav-list__text">Дизайн</button></li>
+            <li class="nav-list__item"><button type="button" class="nav-list__text">Маркетинг</button></li>
           </ul>
         </div>
         <!--Work examples-->
         <div class="container">
-          <ul class="list work-examples">
+          <ul class="list work-examples-list">
             <li class="project item">
               <div class="project-card">
                 <a href="" class="link-item">
@@ -248,10 +248,10 @@
       </section>
     </main>
     <!--Footer-->
-    <footer class="dark-section">
+    <footer class="footer-section">
       <div class="container container-footer">
         <div class="footer-nav">
-          <a lang="en" href="./index.html" class="steplogo-pic steplogo"><span>Web</span>Studio </a>
+          <a lang="en" href="./index.html" class="steplogo"><span>Web</span>Studio </a>
           <address>
             <ul class="footer-con list">
               <li>
