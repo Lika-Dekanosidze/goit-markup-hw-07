@@ -10,7 +10,7 @@
     line-height: 1.19;
     text-decoration: none;
   }
-.logo span {
+.logo__accent-color {
     color: var(--accent-color);
   }
 .steplogo {
@@ -24,6 +24,3 @@
     line-height: 1.19;
     text-decoration: none;
   }  
-.steplogo span {
-    color: var(--accent-color);
-  }
